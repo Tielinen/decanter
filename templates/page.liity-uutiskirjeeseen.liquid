@@ -1,0 +1,65 @@
+<div id="page" class="desktop-12 tablet-6 mobile-3" data-section-id="{{ section.id }}">
+  
+  <h1 style="margin-top: 20px;">{{page.title}}</h1>
+  
+  <p>{{ page.content }}</p>
+  
+  <style>
+    
+    #_form_1_submit {
+    	font-size: 16px!important;
+      	line-height: 23px;
+    }
+    
+    #_form-title {
+    	margin-top: 20px!important;
+      	margin-bottom: 10px!important;
+    }
+    
+    </style>
+ 
+  <div id="_form_1" class="_form_1"></div>
+  
+  
+  <script type="text/javascript">
+    
+    (function(){ 
+     var randomh=Math.random();
+     var e = document.getElementsByTagName("script")[0];
+     var d = document.createElement("script");
+     d.src = "https://viinilehti.activehosted.com/f/embed.php?id=1&x="+randomh+"";
+     d.type = "text/javascript"; 
+     d.async = true;
+     d.defer = true;
+     e.parentNode.insertBefore(d,e);
+ })();
+    
+  </script>
+  
+  <script>
+  	const urlQuery = window.location.search;
+    const urlParams = new URLSearchParams(urlQuery);
+    const showThankYou = urlParams.get("show-thank-you");
+    const firstName = urlParams.get("firstname");
+    
+    
+    
+    if(showThankYou) {
+      	const thankYouMessage = `
+				<h2 style="text-align: center; max-width: 100%; width: 432px">
+				${firstName ? "Hei " + firstName +"!<br><br>" : ""}
+				Kiitos, kun tilasit Neuvoa Antavat -uutiskirjeemme!<br><br>
+				Saat jatkossa viikoittain sähköpostiisi parhaimmat tarjoukset ja poiminnat valikoimastamme.<br><br>
+				T. <strong>Team-Deksu</strong></h2>
+		`;
+      
+    	document.getElementById("_form_1").style.display = "none";
+      	document.getElementById("page").style.display = "flex";
+        document.getElementById("page").style.flexDirection = "column";
+        document.getElementById("page").style.alignItems = "center";
+      	document.getElementById("page").innerHTML = document.getElementById("page").innerHTML.concat(thankYouMessage);
+    }
+    
+  </script>
+  
+</div>

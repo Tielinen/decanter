@@ -1,0 +1,308 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {}
+    },
+    "slideshow_bgKdj4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_NiBkWa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ysmy-banneri-2.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 35,
+            "caption_position": "middle_center",
+            "mobile_image": "shopify://shop_images/ysmy-banneri-2.png",
+            "hide_caption_background": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "",
+            "text_color": "#ffffff",
+            "button_color": "#ffffff",
+            "button_background": "#000000",
+            "caption_background": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_NiBkWa"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "slideshow_size": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "caption_below": false,
+        "pager": "dots",
+        "transition": "fade",
+        "slider_speed": 5,
+        "enable_stop_pause_on_mobile": true,
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "banner": {
+      "type": "banner-image",
+      "settings": {
+        "image": "shopify://shop_images/lahjaideat.png"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "page_alignment": "a-left"
+      }
+    },
+    "image_with_text_YHQtVb": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_pBkqbz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lahjasivusto-isanpaiva-1.png"
+          }
+        },
+        "image_VTeKyE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lahjasivusto-isanpaiva-2.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_pBkqbz",
+        "image_VTeKyE"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "section_padding": "both",
+        "appearance": "overlap",
+        "layout": "left",
+        "image_width": "50%",
+        "image_height": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "text_align": "left",
+        "heading": "Muista isää",
+        "text": "<p>Isänpäivä lähestyy, tutustu isänpäivälahjoihin ja hemmottele herkuttelijaa!</p>",
+        "button": "TUTUSTU",
+        "link": "https://decanter.fi/collections/lahjaideat-isalle",
+        "background": "#ffffff",
+        "color": "#000000"
+      }
+    },
+    "image_with_text_k4kaQR": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_V8knWW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lahjasivusto-joululahjat.png"
+          }
+        },
+        "image_UxFrTr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lahjasivusto-peugeot.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_V8knWW",
+        "image_UxFrTr"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "section_padding": "both",
+        "appearance": "overlap",
+        "layout": "left",
+        "image_width": "50%",
+        "image_height": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "text_align": "left",
+        "heading": "Herkuttelijan joululahjat",
+        "text": "<p>Tutustu erinomaisiin herkuttelijan joululahjaideoihin.</p>",
+        "button": "TUTUSTU",
+        "link": "https://decanter.fi/collections/herkulliseen-jouluun",
+        "background": "#ffffff",
+        "color": "#000000"
+      }
+    },
+    "image_with_text_gRzFnH": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_FUWkUQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lahjasivusto-viinitarvikkeet-2.png"
+          }
+        },
+        "image_pthwtM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lahjasivusto-viinitarvikkeet.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_FUWkUQ",
+        "image_pthwtM"
+      ],
+      "settings": {
+        "full_width": false,
+        "section_padding": "both",
+        "appearance": "overlap",
+        "layout": "right",
+        "image_width": "50%",
+        "image_height": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "text_align": "left",
+        "heading": "Viiniharrastajan ilahduttamiseen",
+        "text": "<p>Valikoimastamme löytyy viiniharrastajien unelmalahjat. Tutustu laajaan viinitarvikevalikoimaan.</p>",
+        "button": "TUTUSTU",
+        "link": "https://decanter.fi/collections/lahjaideat-viiniharrastajalle",
+        "background": "#ffffff",
+        "color": "#000000"
+      }
+    },
+    "image_with_text_jhwFix": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_mQqYHE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lahjasivusto-olutlasit-2.png"
+          }
+        },
+        "image_yTHfcC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lahjasivusto-olutlasit.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_mQqYHE",
+        "image_yTHfcC"
+      ],
+      "settings": {
+        "full_width": false,
+        "section_padding": "both",
+        "appearance": "overlap",
+        "layout": "left",
+        "image_width": "50%",
+        "image_height": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "text_align": "left",
+        "heading": "Huurteisten ystäville",
+        "text": "<p>Oluen ystäville löytyy maailman parhaita olutlaseja. Kippis päivänsankarille!</p>",
+        "button": "TUTUSTU",
+        "link": "https://decanter.fi/collections/lahjaideat-oluen-ystavalle",
+        "background": "#ffffff",
+        "color": "#000000"
+      }
+    },
+    "image_with_text_cVm4Ye": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_yeEDpm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lahjasivusto-kotikokille-1.png"
+          }
+        },
+        "image_fVNmGi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lahjasivusto-kotikokille-2.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_yeEDpm",
+        "image_fVNmGi"
+      ],
+      "settings": {
+        "full_width": false,
+        "section_padding": "both",
+        "appearance": "overlap",
+        "layout": "right",
+        "image_width": "50%",
+        "image_height": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "text_align": "left",
+        "heading": "Kotikokin lahjaideat",
+        "text": "<p>Tutustu laajaan keittiötarvikevalikoimaamme! Tuotteita löytyy kokeneille ja vaativimmille kokeille sekä satunnaisille fiilistelijöille.</p>",
+        "button": "TUTUSTU",
+        "link": "https://decanter.fi/collections/lahjaideat-kotikokille",
+        "background": "#ffffff",
+        "color": "#000000"
+      }
+    },
+    "image_with_text_VqQzeB": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_3VADeH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lahjasivusto-lahjakortti.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_3VADeH"
+      ],
+      "settings": {
+        "full_width": false,
+        "section_padding": "both",
+        "appearance": "overlap",
+        "layout": "left",
+        "image_width": "33%",
+        "image_height": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "text_align": "left",
+        "heading": "Anna lahjansaajan valita itse",
+        "text": "<p>Lahjakortti on täydellinen lahja päivänsankarille, jolta löytyy jo vähän kaikkea tai jos et tiedä mistä hän pitää.</p>",
+        "button": "TUTUSTU",
+        "link": "https://decanter.fi/products/decanter-lahjakortti",
+        "background": "#ffffff",
+        "color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "slideshow_bgKdj4",
+    "banner",
+    "main",
+    "image_with_text_YHQtVb",
+    "image_with_text_k4kaQR",
+    "image_with_text_gRzFnH",
+    "image_with_text_jhwFix",
+    "image_with_text_cVm4Ye",
+    "image_with_text_VqQzeB"
+  ]
+}

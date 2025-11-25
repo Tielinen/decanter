@@ -1,0 +1,190 @@
+<style>
+  #breadcrumb {display: none!important}
+  #content {
+  	width: 100vw!important;
+    height: calc(100vh - 73px)!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    background-image: url("{{ "facebook04-photoshop-upscale-v2.jpg" | asset_img_url: "1700x" }}");
+    background-size: cover;  
+    background-position: center center;  
+    margin-top: 0px!important;  
+  }
+  
+  #content::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+  }
+  
+  #page {
+  	max-width: 100%!important;
+    width: 500px!important;
+    z-index: 4!important;
+  }
+  
+  #page h1, #page p {
+  	color: white!important;
+    text-align: center
+  }
+  
+  @media(min-width: 981px) {
+    #content {height: calc(100vh - 164px)!important;}
+  }
+  
+  #page form {
+  	max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  #page form [type="text"] {
+  	background-color: white!important;
+    font-family: Montserrat!important;
+    text-align: center!important;
+    font-weight: 600!important;
+    padding: 10px 50px!important;
+  }
+  
+  #page form [type="text"]::placeholder {text-align: center}
+  
+  #page form [type="submit"] {
+  	width: 100%;
+    background-color: #E21D39!important;
+    font-weight: 300!important;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  
+  .error {
+	color: white!important;
+    padding: 2px 10px;
+  	background-color: #E21D39;
+  }
+  
+  .wrong-code {
+  	border: 2px solid #E21D39!important;
+  }
+  
+  #MainContent{
+    width: 100vw!important;
+    height: calc(100vh - 73px)!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    background-image: url("//decanter.fi/cdn/shop/t/3/assets/facebook04-photoshop-upscale-v2_1700x.jpg?v=43726419846812352861633683493");
+    background-size: cover;
+    background-position: center center;
+    margin-top: 0px!important;
+  }
+  #MainContent::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+  }
+  #MainContent h1{
+    font-size: 36px;
+  }
+   #MainContent p{
+      font-size: 14px;
+      margin-bottom: 20px;
+   }
+
+  #MainContent #code-to-redeem{
+     font-size: 13px;
+  }
+   #MainContent input[type="submit"]{
+     border: unset;
+   }
+</style>
+
+<div id="page" class="desktop-12 tablet-6 mobile-3" data-section-id="{{ section.id }}">
+  <div>
+    <h1>Lunasta lahjasi</h1>
+    <p>
+    	Syötä lahjakortin koodi ja pääset valitsemaan haluamasi lahjan.
+		Syötettyäsi koodin sivusto ohjaa sinut automaattisesti eteenpäin.
+    </p>
+    
+    <form action="" id="redeem-giftcode">
+    	<input id="code-to-redeem" type="text" placeholder="Syötä lahjakoodi, esim ABCD12345678">
+      	<input type="submit" value="Lunasta koodi">
+    </form>
+  </div>
+</div>
+
+<script>
+  
+  (function() {
+  	const verifyGiftCode = function(code) {
+    	const urlToPost = "https://lahjatilaus.decanter.fi/gift-codes/authenticate";
+      
+        jQuery.ajax({
+          url: urlToPost,
+          type: "post",
+          encode: true,
+          data: {
+            code: code
+          }
+        }).done(function(data) {
+          if(data.result) {
+            submitDataAndRedirect(data.code, data.campaign);
+          } else {
+            renderErrorMessage(data.msg)
+          }
+          });
+    }
+  
+  
+  const submitDataAndRedirect = function(code, campaign) {
+    
+    const form = document.createElement("form");
+    form.style.display = "none";
+    form.setAttribute("action", "https://lahjatilaus.decanter.fi/");
+    form.setAttribute("method", "post");
+    form.innerHTML = `
+		<input type="hidden" value="${code}" name="code">
+		<input type="hidden" value="${campaign}" name="campaign">
+		<input type="submit">
+	`;
+    document.body.appendChild(form);
+    form.submit();
+  }
+  
+  const renderErrorMessage = function(msg = null) {
+    if(msg == null) return;
+  	const elementToInsertBefore = document.getElementById("code-to-redeem");
+    
+    const oldErrorElements = document.getElementsByClassName("error");
+    if( oldErrorElements != null && oldErrorElements.length >= 1 ) {
+        for( let i = 0; i < oldErrorElements.length; i++ ) {
+        	oldErrorElements.item( i ).remove();
+        }
+    } 
+    
+    const errorElement = document.createElement("div");
+    errorElement.classList.add("error");
+    elementToInsertBefore.classList.add("wrong-code");
+   	errorElement.innerHTML = msg;
+    elementToInsertBefore.parentNode.insertBefore(errorElement,elementToInsertBefore);
+  }
+  
+  
+  $("#redeem-giftcode").on("submit", function(e) {
+    e.preventDefault();
+  	verifyGiftCode($(this).find("#code-to-redeem").val());
+  });
+  })();
+</script>

@@ -1,0 +1,82 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "dd5461fb-f6e3-4a8c-820c-e5cf98a304c9": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--19761139876189__dd5461fb-f6e3-4a8c-820c-e5cf98a304c9-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "scrolling_text": "<p>Black Wine Week</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "template--19761139876189__dd5461fb-f6e3-4a8c-820c-e5cf98a304c9-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_size": 20,
+        "speed": 15,
+        "icon_height": 20,
+        "padding": 30,
+        "color": "#000000",
+        "background": ""
+      }
+    },
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {}
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "banner_image_type": "banner_image",
+        "image": "shopify://shop_images/pebbly-collection_1.png"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "bef67807-6de8-4afa-b1fe-bc0a46351382": {
+          "type": "side_sortby",
+          "settings": {}
+        },
+        "cea9f996-51a8-4b3a-8837-6975c0590a9c": {
+          "type": "side_filter",
+          "disabled": true,
+          "settings": {
+            "show_color_swatches": true,
+            "show_filter_count": true
+          }
+        }
+      },
+      "block_order": [
+        "bef67807-6de8-4afa-b1fe-bc0a46351382",
+        "cea9f996-51a8-4b3a-8837-6975c0590a9c"
+      ],
+      "settings": {
+        "rows": 4,
+        "grid": 4,
+        "show_image": false,
+        "description_position": "top"
+      }
+    }
+  },
+  "order": [
+    "dd5461fb-f6e3-4a8c-820c-e5cf98a304c9",
+    "breadcrumbs",
+    "banner",
+    "main"
+  ]
+}

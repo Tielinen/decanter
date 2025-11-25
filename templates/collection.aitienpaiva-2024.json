@@ -1,0 +1,156 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "dd5461fb-f6e3-4a8c-820c-e5cf98a304c9": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--19761139876189__dd5461fb-f6e3-4a8c-820c-e5cf98a304c9-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "scrolling_text": "<p>Black Wine Week</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "template--19761139876189__dd5461fb-f6e3-4a8c-820c-e5cf98a304c9-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_size": 20,
+        "speed": 15,
+        "icon_height": 20,
+        "padding": 30,
+        "color": "#000000",
+        "background": ""
+      }
+    },
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {}
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "banner_image_type": "banner_image",
+        "image": "shopify://shop_images/aitienpaiva_d058d256-a9f9-4933-ae0b-275b6220a436.png"
+      }
+    },
+    "image_gallery_MGFYH7": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_piRzPL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/revol-froisses.png",
+            "image_width": "33%",
+            "link": "https://decanter.fi/search?q=Revol+Froiss%C3%A9&options%5Bprefix%5D=last&type=product&form_type=product&utf8=%E2%9C%93&id=57367664591197&product-id=15351177281885&section-id=predictive-search",
+            "heading": "",
+            "subheading": "",
+            "button_text": "Revol Froissé -kahvimukit",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_9Rzhdi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/riedel-veloce_3.png",
+            "image_width": "33%",
+            "link": "shopify://collections/riedel-veloce-viinilasit",
+            "heading": "",
+            "subheading": "",
+            "button_text": "Riedel Veloce -lasit",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_waj9fE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/kasumi-kasane.png",
+            "image_width": "33%",
+            "link": "https://decanter.fi/collections/kasumi",
+            "heading": "",
+            "subheading": "",
+            "button_text": "Kasumi Kasane -veitset",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_piRzPL",
+        "image_9Rzhdi",
+        "image_waj9fE"
+      ],
+      "name": "Image gallery",
+      "settings": {
+        "full_width": false,
+        "image_height": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "swipe": false,
+        "images_touching": false,
+        "heading_size": 22,
+        "subheading_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "bef67807-6de8-4afa-b1fe-bc0a46351382": {
+          "type": "side_sortby",
+          "settings": {}
+        },
+        "cea9f996-51a8-4b3a-8837-6975c0590a9c": {
+          "type": "side_filter",
+          "disabled": true,
+          "settings": {
+            "show_color_swatches": true,
+            "show_filter_count": true
+          }
+        }
+      },
+      "block_order": [
+        "bef67807-6de8-4afa-b1fe-bc0a46351382",
+        "cea9f996-51a8-4b3a-8837-6975c0590a9c"
+      ],
+      "settings": {
+        "rows": 4,
+        "grid": 4,
+        "show_image": false,
+        "description_position": "top"
+      }
+    }
+  },
+  "order": [
+    "dd5461fb-f6e3-4a8c-820c-e5cf98a304c9",
+    "breadcrumbs",
+    "banner",
+    "image_gallery_MGFYH7",
+    "main"
+  ]
+}

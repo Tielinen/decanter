@@ -1,0 +1,61 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "Footer",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "1480973024958": {
+          "type": "text",
+          "settings": {
+            "heading": "Tietoa meistä",
+            "footer_text": "<p><a href=\"/pages/tietoa-meista\" title=\"Tietoa meistä\">Tietoa meistä</a></p><p><a href=\"/pages/asiakaspalvelu-ja-myymalat\" title=\"Asiakaspalvelu ja myymälät\">Yhteystiedot</a></p><p><a href=\"/pages/jalleenmyyjat\" title=\"Jälleenmyyjät\">Jälleenmyyjät</a></p><p><a href=\"/pages/toimitusehdot\" title=\"Toimitusehdot\">Toimitusehdot</a></p><p><a href=\"/pages/rekisteriseloste\" title=\"Rekisteriseloste\">Rekisteriseloste</a></p><p><a href=\"/pages/tietosuojakaytanto\" title=\"Tietosuojakäytäntö\">Tietosuojakäytäntö</a></p><p></p><p><strong>Decanter Oy</strong><br/></p><p>Melkonkatu 24<br/></p><p>00210 Helsinki<br/></p><p><a href=\"mailto:decanter@decanter.fi\" title=\"mailto:decanter@decanter.fi\">decanter@decanter.fi</a></p>"
+          }
+        },
+        "08871ec6-b8a9-41c1-844e-731d6896f4ff": {
+          "type": "text",
+          "settings": {
+            "heading": "Myymälät",
+            "footer_text": "<p><a href=\"https://goo.gl/maps/T5NR3N7CLvid9WdL8\" target=\"_blank\" title=\"https://goo.gl/maps/T5NR3N7CLvid9WdL8\"><strong>Decanter Helsinki</strong></a><br/></p><p>Yrjönkatu 34<br/></p><p><a href=\"mailto:helsinki@decanter.fi\" title=\"mailto:helsinki@decanter.fi\">helsinki@decanter.fi</a><br/></p><p><a href=\"tel:0505413344\" title=\"tel:0505413344\">050 541 3344</a><br/></p><p></p><p><a href=\"https://goo.gl/maps/9fMHp6aSPnmn9GPc7\" target=\"_blank\" title=\"https://goo.gl/maps/9fMHp6aSPnmn9GPc7\"><strong>Decanter Espoo</strong></a><br/></p><p>Kauppakeskus Iso Omena</p><p>Piispansilta 11</p><p><a href=\"mailto:espoo@decanter.fi\" title=\"mailto:espoo@decanter.fi\">espoo@decanter.fi</a><br/></p><p><a href=\"tel:0505411800\" title=\"tel:0505411800\">050 5411 800</a></p>"
+          }
+        },
+        "f4b13b8f-a753-4c43-b9eb-accaf176e482": {
+          "type": "text",
+          "settings": {
+            "heading": "Asiakkaillemme",
+            "footer_text": "<p><a href=\"/collections/all\" title=\"/collections/all\">Tuotteet</a></p><p><a href=\"/pages/asiakaspalvelu-ja-myymalat\" title=\"Asiakaspalvelu ja myymälät\">Asiakaspalvelu ja myymälät</a></p><p><a href=\"/pages/horeca\" title=\"HoReCa\">HoReCa-alan ammattilaisille</a></p><p><a href=\"https://riedelravintolat.fi/\" target=\"_blank\" title=\"https://riedelravintolat.fi/\">Riedel-ravintolat</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "1480973024958",
+        "08871ec6-b8a9-41c1-844e-731d6896f4ff",
+        "f4b13b8f-a753-4c43-b9eb-accaf176e482"
+      ],
+      "settings": {
+        "footer_text_align": "left",
+        "footer_title_transform": "uppercase",
+        "footer_title_size": 14,
+        "show_credit_cards": false,
+        "show_social_icons": false,
+        "enable_follow_on_shop": false,
+        "show_copyright": false,
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_flag": false
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -1,0 +1,132 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {}
+    },
+    "banner": {
+      "type": "banner-image",
+      "disabled": true,
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "page_alignment": "a-left"
+      }
+    },
+    "story_LecVLz": {
+      "type": "story",
+      "blocks": {
+        "text_crVcAi": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Decanter Oy</strong> on vuonna 1987 perustettu viini- ja keittiötarvikkeiden maahantuoja, tukkumyyjä ja vähittäiskauppias. Tavoitteenamme on edistää suomalaista viinikulttuuria ja gastronomiaa etsimällä parhaat tuotteet ja tarjoamalla niitä kilpailukykyisin hinnoin asiakkaillemme. Laadukkaat tuotteet ja erinomainen palvelu ovat meille kunnia-asioita.</p>",
+            "button": "",
+            "link": "",
+            "column_size": 2,
+            "block_height": "medium",
+            "center_align": false,
+            "color": "#000000",
+            "background": "#ffffff",
+            "font_size": 20
+          }
+        },
+        "video_FH6Amk": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://vimeo.com/1092416621/7618f769be?share=copy#t=0",
+            "description": "",
+            "column_size": 4,
+            "block_height": "medium"
+          }
+        },
+        "image_HP6km3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5573.heic",
+            "link": "",
+            "column_size": 3,
+            "block_height": "medium"
+          }
+        },
+        "text_LefJPt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Palvelemme sinua aina henkilökohtaisesti. Meille voit lähettää tuotteista herääviä kysymyksiä sähköpostilla decanter@decanter.fi tai soittaa varastomme numeroon 050 560 9933. Vastaamme arkisin klo 8-16 välillä. Tavoitat meidät myös Facebook- ja Instagram-viestien välityksellä.</p>",
+            "button": "",
+            "link": "",
+            "column_size": 3,
+            "block_height": "medium",
+            "center_align": false,
+            "color": "#000000",
+            "background": "#ededed",
+            "font_size": 20
+          }
+        },
+        "text_MVpTCt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yli 30 vuotta sitten <strong>Juha Berglundin</strong> viiniharrastuksen innoittamana syntynyt korkkiruuvikauppa Decanter kuuluu nykyään samaan konserniin <strong>Viinilehden</strong>, Ranskan Bordeaux'ssa sijaitsevan viinitila <strong>Chateau Carsinin</strong> sekä <strong>Viinikellari.comin</strong> kanssa tarjoten laajan kirjon tuotteita, palveluita ja elämyksiä viinin ja ruoan ystäville.</p>",
+            "button": "",
+            "link": "",
+            "column_size": 2,
+            "block_height": "medium",
+            "center_align": false,
+            "color": "#000000",
+            "background": "#ffffff",
+            "font_size": 20
+          }
+        },
+        "image_XtiqVK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/decanter-espoo_1.png",
+            "link": "",
+            "column_size": 2,
+            "block_height": "medium"
+          }
+        },
+        "image_wDPGAq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/viiniruoka-decanter.png",
+            "link": "",
+            "column_size": 2,
+            "block_height": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "text_crVcAi",
+        "video_FH6Amk",
+        "image_HP6km3",
+        "text_LefJPt",
+        "text_MVpTCt",
+        "image_XtiqVK",
+        "image_wDPGAq"
+      ],
+      "name": "Story",
+      "settings": {
+        "heading": "Meidän tarina",
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "banner",
+    "main",
+    "story_LecVLz"
+  ]
+}

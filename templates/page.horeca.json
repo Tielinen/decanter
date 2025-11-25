@@ -1,0 +1,479 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {}
+    },
+    "banner": {
+      "type": "banner-image",
+      "settings": {
+        "image": "shopify://shop_images/horeca-banner.png"
+      }
+    },
+    "slideshow_bgKdj4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_NiBkWa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ysmy-banneri-1_2.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "caption_position": "middle_center",
+            "mobile_image": "shopify://shop_images/ysmy-banneri-1_2.png",
+            "hide_caption_background": false,
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "text_color": "#ffffff",
+            "button_color": "#ffffff",
+            "button_background": "#000000",
+            "caption_background": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_NiBkWa"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "slideshow_size": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "caption_below": false,
+        "pager": "dots",
+        "transition": "fade",
+        "slider_speed": 5,
+        "enable_stop_pause_on_mobile": true,
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "page_alignment": "a-left"
+      }
+    },
+    "image_with_text_LCD8iC": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_TctUyb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/senja-vesalainen.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_TctUyb"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "full_width": false,
+        "section_padding": "both",
+        "appearance": "overlap",
+        "layout": "right",
+        "image_width": "25%",
+        "image_height": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "text_align": "left",
+        "heading": "Ota yhteyttä Senjaan",
+        "text": "<p>Lisätietoja HoReCa-valikoimasta ja hinnoista voit tiedustella osoitteesta:<br/><a href=\"mailto:senja.keranen@decanter.fi\">senja.vesalainen@decanter.fi</a></p><p>Puhelin arkisin klo. 8:30-16 välillä <a href=\"tel:358407679928\">+358 40 767 9928</a></p>",
+        "button": "",
+        "link": "",
+        "background": "#ffffff",
+        "color": "#000"
+      }
+    },
+    "image_gallery_78NW7k": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_MN8fHF": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "link": "",
+            "heading": "Keittiökuvasto",
+            "subheading": "2025",
+            "button_text": "Button",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_n4FEic": {
+          "type": "image",
+          "settings": {
+            "image_width": "33%",
+            "link": "",
+            "heading": "Salikuvasto",
+            "subheading": "2025",
+            "button_text": "Button",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MN8fHF",
+        "image_n4FEic"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "image_height": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "swipe": false,
+        "images_touching": false,
+        "heading_size": 22,
+        "subheading_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "image_gallery_CyEbef": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_49t6af": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/riedel-horeca.png",
+            "image_width": "33%",
+            "link": "",
+            "heading": "Riedel",
+            "subheading": "Ensiluokkaiset rypälekohtaisesti suunnitellut viinilasit.",
+            "button_text": "Button",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_44m9w6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/peugeot-horeca.png",
+            "image_width": "33%",
+            "link": "",
+            "heading": "Peugeot",
+            "subheading": "Ranskalaiset maustemyllyt keittiöön ja kattauksiin.",
+            "button_text": "Button",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_nUpg6q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/debuyer-horeca.png",
+            "image_width": "33%",
+            "link": "",
+            "heading": "De Buyer",
+            "subheading": "Huippuluokan hiiliteräspannut ja muut ruoanlaittovälineet.",
+            "button_text": "Button",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_49t6af",
+        "image_44m9w6",
+        "image_nUpg6q"
+      ],
+      "name": "Image gallery",
+      "settings": {
+        "full_width": false,
+        "image_height": "natural",
+        "desktop_height": 400,
+        "mobile_height": 600,
+        "swipe": false,
+        "images_touching": false,
+        "heading_size": 22,
+        "subheading_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "image_gallery_NW6h9R": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_BhYRmk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/revol-horeca.png",
+            "image_width": "33%",
+            "link": "",
+            "heading": "Revol",
+            "subheading": "Ranskalaisen perheyrityksen kestävä ja tyylikäs keramiikka.",
+            "button_text": "Button",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_afP48B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hexclad-horeca.png",
+            "image_width": "33%",
+            "link": "",
+            "heading": "HexClad",
+            "subheading": "Patentoidut, uuden teknologian hybridipannut.",
+            "button_text": "Button",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_k83nRb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/kasumi-horeca_1.png",
+            "image_width": "33%",
+            "link": "",
+            "heading": "Kasumi",
+            "subheading": "Käsintehdyt japanilaiset keittiöveitset.",
+            "button_text": "Button",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_BhYRmk",
+        "image_afP48B",
+        "image_k83nRb"
+      ],
+      "name": "Image gallery",
+      "settings": {
+        "full_width": false,
+        "image_height": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "swipe": false,
+        "images_touching": false,
+        "heading_size": 22,
+        "subheading_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "image_gallery_yjGmPW": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_4th36n": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hendi-horeca.png",
+            "image_width": "33%",
+            "link": "",
+            "heading": "Hendi",
+            "subheading": "Ammattilaisille suunnitellut monipuoliset keittiövälineet.",
+            "button_text": "Button",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_9aB9nd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/coravin-horeca.png",
+            "image_width": "33%",
+            "link": "",
+            "heading": "Coravin",
+            "subheading": "Viinin laadukkaaseen tarjoiluun, yksi lasi kerrallaan.",
+            "button_text": "Button",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ywAtm8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nachtmann-horeca.png",
+            "image_width": "33%",
+            "link": "",
+            "heading": "Nachtmann",
+            "subheading": "Euroopassa valmistetut perinteikkäät kristalliastiat kattauksiin.",
+            "button_text": "Button",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_4th36n",
+        "image_9aB9nd",
+        "image_ywAtm8"
+      ],
+      "name": "Image gallery",
+      "settings": {
+        "full_width": false,
+        "image_height": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "swipe": false,
+        "images_touching": false,
+        "heading_size": 22,
+        "subheading_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "image_gallery_FFeYDP": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_MJfeDX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/triangle-horeca.png",
+            "image_width": "33%",
+            "link": "",
+            "heading": "Triangle",
+            "subheading": "Saksalaiset laadukkaat keittiövälineet.",
+            "button_text": "Button",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3t7iqi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/microplane-horeca.png",
+            "image_width": "33%",
+            "link": "",
+            "heading": "Microplane",
+            "subheading": "Erikoisterävät kulinaristin työkalut.",
+            "button_text": "Button",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XdP4hB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/kuchenprofi-horeca.png",
+            "image_width": "33%",
+            "link": "",
+            "heading": "Küchenprofi",
+            "subheading": "Eurooppalaiset keittiötarvikkeet ammattilaistarpeisiin.",
+            "button_text": "Button",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MJfeDX",
+        "image_3t7iqi",
+        "image_XdP4hB"
+      ],
+      "name": "Image gallery",
+      "settings": {
+        "full_width": false,
+        "image_height": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "swipe": false,
+        "images_touching": false,
+        "heading_size": 22,
+        "subheading_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "rich_text_NNdQat": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "heading": "",
+        "rich_text": "<h1>Riedel-tutkimus<br/><br/></h1><p>Decanter Oy teetti yhteistyössä Innolink Research Oy:n kanssa markkinatutkimuksen marraskuussa 2017. Tutkimuksessa kartoitettiin suomalaisten tasokkaiden ravintoloiden viinikulttuuria sekä viinilasibrändien tunnettuutta. Tutkimukseen vastasi 118 ravintola-alan ammattilaista. Tutkimuksessa ravintola-alan ammattilaiset kuvailivat kuluttajatrendejä ja asiakaskunnasta nousevia toiveita. Useimmin mainittuja teemoja olivat viiniin kohdistuva kasvava kiinnostus, arvostus ja tietoisuus, rentous viinikulttuurissa, luomuviinien kysyntä sekä kiinnostus pientuottajien viineihin.</p><p><em>Tutkimuksen päähavainto oli selkeä: viinilaseilla on merkitystä</em></p><p><strong>RIEDEL OSANA VIINIKULTTUURIA<br/></strong>97 % vastaajista nimesi Riedelin kahden parhaan viinilasibrändin joukkoon. Riedelin laseja käyttävissä ravintoloissa on muita vahvempi viinikulttuuri. Niissä myös arvostetaan muita enemmän lasien kestävyyttä ja pestävyyttä sekä muotokieltä ja visuaalisuutta.</p><p><strong>VIINILASIT OSANA LAADUKASTA ASIAKASKOKEMUSTA</strong><br/>75 % vastaajista arvioi viinilaseilla olevan melko suuri tai suuri merkitys viinin makuun. Vastaajien perustelut kuvastavat sitä, että viinilasit ovat tärkeä viinin makuun ja viinikokemukseen vaikuttava elementti.</p><p><strong>RIEDEL YLIVOIMAISESTI TUNNETUIN</strong><br/>45 % vastaajista nimesi spontaanisti Riedelin viinilasien valmistajia kysyttäessä. Lisäksi 93 % tunsi Riedelin vähintään nimeltä, kun brändien tunnettuutta kartoitettiin autetusti.</p><p><strong>LISÄARVOA SAATAVILLA</strong><br/>27 % vastaajista arvioi, että viinilasista kertominen asiakkaalle ravintolassa toisi lisäarvoa asiakaskokemukselle. Tässä nähtiin parantamisen varaa läpi vastaajajoukon.</p><p><strong>HARHAUTTAVAT HINTAMIELIKUVAT</strong><br/>63 % vastaajista piti 4-10 €:n hintaa sopivana ravintolassa käytettäville viinilaseille. Monelle tulee yllätyksenä että Riedelin ravintolalasit on hinnoiteltu juuri tähän hintahaarukkaan, jopa sen alle.</p>",
+        "page": "",
+        "link": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "color": "#000000",
+        "width": 90,
+        "align_text": "left",
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "banner",
+    "slideshow_bgKdj4",
+    "main",
+    "image_with_text_LCD8iC",
+    "image_gallery_78NW7k",
+    "image_gallery_CyEbef",
+    "image_gallery_NW6h9R",
+    "image_gallery_yjGmPW",
+    "image_gallery_FFeYDP",
+    "rich_text_NNdQat"
+  ]
+}

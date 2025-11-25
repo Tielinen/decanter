@@ -1,0 +1,67 @@
+<div class="product--grid__swatches">
+  {% for option in product.options %}
+    {%- liquid
+
+      assign color_swatch_options = "color, colour, cor, farbe, couleur" | split: ", "
+      assign size_swatch_options = "size, sizes, talle, dimensione, tamano, tamanho" | split: ", "
+      assign option_handle = option | handle
+      assign option_index = forloop.index0
+      assign values = ''
+      assign downcased_option = option | downcase
+
+    -%}
+
+    {% liquid
+
+      if color_swatch_options contains downcased_option and show_swatches
+        assign swatch_type = 'color'
+      elsif size_swatch_options contains downcased_option and show_sizes
+        assign swatch_type = 'size'
+      else
+       break
+      endif
+
+    -%}
+
+    {% if swatch_type == 'color' or swatch_type == 'size' %}
+      <div class="prod-{{ swatch_type }}s">
+        <div class="{{ swatch_type }}-swatch">
+          <ul data-option-index="{{ option_index }}" class="{{ option_handle }} options">
+            <p class="option--title">{{ downcased_option }}:</p>
+            {% for variant in product.variants %}
+              {%- liquid
+
+                assign variant_image_url = blank
+                if variant.image
+                  assign variant_image_url =  variant.image | image_url: width: 100
+                endif
+                assign value = variant.options[option_index]
+
+              -%}
+              {% capture wrapped_value %},{{ value }},{% endcapture %}
+              {% unless values contains wrapped_value %}
+                <li data-option-title="{{ value | escape }}" class="{{ swatch_type }} {{ value | handle }}">
+                  <a title="{{ value | escape }}" href="{{ variant.url | within: collection }}">
+                    {% if swatch_type == 'color' %}
+                      {% liquid
+                        assign swatch_img = blank
+                        assign swatch_color_name = value | handle | append: '.png'
+                        if images[swatch_color_name] != blank
+                          assign swatch_img = swatch_color_name | file_url
+                        endif
+                      %}
+                      <span style="background-color: {{ value | split: ' ' | last | handle }}; background-image: url({{ swatch_img | default: variant_image_url }});"></span>
+                    {% else %}
+                      {{ value | escape }}
+                    {% endif %}
+                  </a>
+                </li>
+                {% capture values %}{{ values | append: wrapped_value }}{% endcapture %}
+              {% endunless %}
+            {% endfor %}
+          </ul>
+        </div><!-- .swatch -->
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

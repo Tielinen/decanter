@@ -1,0 +1,174 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "dd5461fb-f6e3-4a8c-820c-e5cf98a304c9": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--19761139876189__dd5461fb-f6e3-4a8c-820c-e5cf98a304c9-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "scrolling_text": "<p>Black Wine Week</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "template--19761139876189__dd5461fb-f6e3-4a8c-820c-e5cf98a304c9-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_size": 20,
+        "speed": 15,
+        "icon_height": 20,
+        "padding": 30,
+        "color": "#000000",
+        "background": ""
+      }
+    },
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {}
+    },
+    "slideshow_VAm8Ne": {
+      "type": "slideshow",
+      "blocks": {
+        "image_fg9Th4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6330-15_RIEDEL-Veloce-Riesling_MJR_Riedel_Veloce_5a.jpg",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "caption_position": "middle_center",
+            "hide_caption_background": false,
+            "heading": "Riedel Wine Glass Experience by Maximilian J. Riedel 7.10.2025",
+            "subheading": "<p>Liput myynnissä nyt!</p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "text_color": "#ffffff",
+            "button_color": "#ffffff",
+            "button_background": "#000000",
+            "caption_background": "rgba(0,0,0,0)"
+          }
+        },
+        "image_dkmmY3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MJR_Riedel_Veloce_Gruppe_1.jpg",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "caption_position": "middle_center",
+            "hide_caption_background": false,
+            "heading": "Ainutlaatuinen Riedel lasielämys nyt Suomessa",
+            "subheading": "<p>Paikkoja rajoitetusti!</p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "text_color": "#ffffff",
+            "button_color": "#ffffff",
+            "button_background": "#000000",
+            "caption_background": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_fg9Th4",
+        "image_dkmmY3"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "slideshow_size": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "caption_below": false,
+        "pager": "dots",
+        "transition": "fade",
+        "slider_speed": 5,
+        "enable_stop_pause_on_mobile": true,
+        "slide_heading_size": 22,
+        "subheading_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "banner_image_type": "banner_image"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "bef67807-6de8-4afa-b1fe-bc0a46351382": {
+          "type": "side_sortby",
+          "settings": {}
+        },
+        "cea9f996-51a8-4b3a-8837-6975c0590a9c": {
+          "type": "side_filter",
+          "disabled": true,
+          "settings": {
+            "show_color_swatches": true,
+            "show_filter_count": true
+          }
+        }
+      },
+      "block_order": [
+        "bef67807-6de8-4afa-b1fe-bc0a46351382",
+        "cea9f996-51a8-4b3a-8837-6975c0590a9c"
+      ],
+      "settings": {
+        "rows": 4,
+        "grid": 4,
+        "show_image": false,
+        "description_position": "top"
+      }
+    },
+    "shop_the_look_iXJ3T9": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_9nL9xk": {
+          "type": "product",
+          "settings": {
+            "product": "riedel-wine-glass-experience-by-maximilian-j-riedel-1"
+          }
+        },
+        "product_XDhE6t": {
+          "type": "product",
+          "settings": {
+            "product": "vip-paketti-riedel-wine-glass-experience-by-maximilian-j-riedel"
+          }
+        }
+      },
+      "block_order": [
+        "product_9nL9xk",
+        "product_XDhE6t"
+      ],
+      "name": "Shop the look",
+      "settings": {
+        "heading": "Varaa paikkasi ainutlaatuiseen iltaan",
+        "image": "shopify://shop_images/MJR_Riedel_Veloce_Amadeo_Blue_2_1.jpg",
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "dd5461fb-f6e3-4a8c-820c-e5cf98a304c9",
+    "breadcrumbs",
+    "slideshow_VAm8Ne",
+    "banner",
+    "main",
+    "shop_the_look_iXJ3T9"
+  ]
+}

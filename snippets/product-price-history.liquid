@@ -1,0 +1,175 @@
+
+{% assign current_variant = product.selected_or_first_available_variant %}
+
+<style type="text/css">
+  #product-price-history {
+    clear:both;
+    display: flex;
+    cursor: pointer;
+    margin: 20px 0;
+  }
+  .price-history-pill {
+    border: 1px black solid;
+    /*border-radius: 10px;*/
+    padding: 2px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+.price-history-pill svg {
+  height:15px;
+  width:15px;
+  margin-right: 5px;
+}
+
+  .price-history-pill .tooltip {
+
+        background: #333;
+        color: white;
+        font-weight: bold;
+        padding: 4px 8px;
+        font-size: 13px;
+        border-radius: 4px;
+        visibility:hidden;
+        transition: opacity 0.2s ease-out;
+        opacity:0;
+  }
+
+  .price-history-pill .tooltip[data-show] {
+    visibility: visible;
+    opacity:1;
+  }
+
+  .price-history-pill .tooltip #arrow,
+  .price-history-pill .tooltip #arrow::before {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: inherit;
+  }
+
+  .price-history-pill .tooltip #arrow {
+    visibility: hidden;
+  }
+
+  .price-history-pill .tooltip #arrow::before {
+    visibility: visible;
+    content: '';
+    transform: rotate(45deg);
+  }
+
+  .price-history-pill .tooltip[data-popper-placement^='top'] > #arrow {
+    bottom: -4px;
+  }
+
+  .price-history-pill .tooltip[data-popper-placement^='bottom'] > #arrow {
+    top: -4px;
+  }
+
+  .price-history-pill .tooltip[data-popper-placement^='left'] > #arrow {
+    right: -4px;
+  }
+
+  .price-history-pill .tooltip[data-popper-placement^='right'] > #arrow {
+    left: -4px;
+  }
+
+</style>
+
+<div id="product-price-history" style="display:none">
+  
+  <div class="price-history-pill">
+    <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 50 50" height="50px" id="Layer_1" version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect fill="none" height="50" width="50"/><circle cx="39" cy="11" fill="none" r="3" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M47,5.5  C47,4.119,45.881,3,44.5,3c-0.156,0-14.876,0.002-14.876,0.002c-1.33,0-2.603-0.07-3.341,0.668L3.554,26.398  c-0.739,0.738-0.739,1.936,0,2.674l17.374,17.374c0.738,0.738,1.936,0.738,2.674,0L46.33,23.717c0.738-0.737,0.668-1.98,0.668-3.34  C46.998,20.377,47,5.656,47,5.5z" fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+      Aiempi hinta
+      <div class="tooltip" role="tooltip">
+        <p class="content"></p>
+        <div id="arrow" data-popper-arrow></div>
+      </div>
+  </div>
+
+</div>
+
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script defer>
+
+  console.log("PRODUCT_PRICE_HISTORY", '{{ current_variant.sku }}');
+
+  {% if current_variant.price != current_variant.compare_at_price %}
+      window.showPriceHistory = true;
+  {% else %}
+      window.showPriceHistory = false;
+  {% endif %}
+  
+  if( currentVariantSKU == null )
+  {
+    const currentVariantSKU = '{{ current_variant.sku }}';
+  } 
+  (function($){
+
+    $(function(){
+        const tmpSKU = encodeURIComponent(currentVariantSKU);
+
+        $.get("https://decanter-sapp.viinilehti.fi/product_price_history.php?productCode="+tmpSKU, function(data){
+          console.log('PRICE_HISTORY:',data);
+          if( window.showPriceHistory ) {
+            //render(data);
+          }
+        });
+
+        function render(data) {
+          console.log("Rendering pricehistory...");
+          let element = $('#product-price-history');
+          element.css('display', 'flex');
+
+          if( Array.isArray(data) ) {
+            $(".price-history-pill .tooltip .content").html(data[0].note);
+          } else {
+            $(".price-history-pill .tooltip .content").html(data.note);
+          }
+          let button = document.querySelector('#product-price-history .price-history-pill');
+          let tooltip = document.querySelector('#product-price-history .tooltip');
+          const popperInstance = Popper.createPopper(button, tooltip, {
+            modifiers: [
+              {
+                name: 'offset',
+                options: {
+                  offset: [0, 8],
+                },
+              },
+            ],
+          });
+          $(document).click(function(e){
+
+            const { target } = e;
+            if (!target.closest('#product-price-history .price-history-pill')) {
+              if( tooltip.hasAttribute('data-show') )
+              {
+                $(".price-history-pill .tooltip #arrow").css("display", 'none');
+                tooltip.removeAttribute('data-show');
+              }
+            } else {
+
+              if( tooltip.hasAttribute('data-show') )
+              {
+                $(".price-history-pill .tooltip #arrow").css("display", 'none');
+                tooltip.removeAttribute('data-show');
+              } else {
+
+                tooltip.setAttribute('data-show', '');
+                $(".price-history-pill .tooltip #arrow").css("display", 'block');
+                popperInstance.update();
+              }
+            }
+          })
+
+        }
+      
+    });
+
+    
+    
+  })(jQuery);
+  
+</script>

@@ -1,0 +1,159 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "896887d5-6a65-431c-9081-550cbc1a6676": {
+          "type": "product_variants",
+          "settings": {
+            "show_size_chart": false,
+            "size_chart_page": "",
+            "size_chart_label": "Size chart"
+          }
+        },
+        "96538038-0fb0-4257-9f4c-9fd7eb2fc56c": {
+          "type": "product_sku",
+          "settings": {}
+        },
+        "d9681722-e21d-42cb-b517-5a22bc70b2e5": {
+          "type": "product_quantity",
+          "settings": {}
+        },
+        "569acd10-43ac-4854-adc8-bc64927b54bb": {
+          "type": "product_buttons",
+          "settings": {
+            "show_gift_card_recipient": false
+          }
+        },
+        "fbbab9a2-165f-4bbe-a499-6ca2d7ff8d68": {
+          "type": "product_erply_stock",
+          "settings": {}
+        },
+        "56db6d23-c7a6-4c63-aead-eafd5f775062": {
+          "type": "product_price_history",
+          "settings": {}
+        },
+        "1af258e7-17dd-4fe5-bccb-351630d70821": {
+          "type": "product_description",
+          "settings": {}
+        },
+        "1c0b00e5-23e2-48f5-b09b-d3b06bbf0d6f": {
+          "type": "share",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "896887d5-6a65-431c-9081-550cbc1a6676",
+        "96538038-0fb0-4257-9f4c-9fd7eb2fc56c",
+        "d9681722-e21d-42cb-b517-5a22bc70b2e5",
+        "569acd10-43ac-4854-adc8-bc64927b54bb",
+        "fbbab9a2-165f-4bbe-a499-6ca2d7ff8d68",
+        "56db6d23-c7a6-4c63-aead-eafd5f775062",
+        "1af258e7-17dd-4fe5-bccb-351630d70821",
+        "1c0b00e5-23e2-48f5-b09b-d3b06bbf0d6f"
+      ],
+      "settings": {
+        "product_background": "",
+        "thumbnail_position": "left",
+        "click_to_enlarge": true,
+        "enable_video_looping": false
+      }
+    },
+    "17623751113d140d8d": {
+      "type": "apps",
+      "blocks": {
+        "reviews_io_reviewsio_polaris_4jMkdX": {
+          "type": "shopify://apps/reviews-io/blocks/reviewsio-polaris/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#000",
+            "review_type": "product_review,questions",
+            "per_page": 8,
+            "primary_btn_bg_color": "#000",
+            "primary_btn_border_color": "#000",
+            "primary_btn_text_color": "#fff",
+            "secondary_btn_border_color": "#000",
+            "secondary_btn_text_color": "#000",
+            "border_color": "#D9D9D9",
+            "heading_text_color": "#000",
+            "heading_font": "sans_serif_n4",
+            "body_text_color": "#000",
+            "badge_icon_color": "#000",
+            "badge_text_color": "#000",
+            "enable_rich_snippets": true,
+            "show_location": true,
+            "show_tab_selector": false,
+            "show_dates": true,
+            "show_avatar": true,
+            "enable_sentiment_analysis": false,
+            "enable_replies": false,
+            "widget_spacing": 0,
+            "capitalise_headers_and_buttons": false,
+            "show_review_title": false,
+            "default_sort": "date_desc"
+          }
+        }
+      },
+      "block_order": [
+        "reviews_io_reviewsio_polaris_4jMkdX"
+      ],
+      "settings": {
+        "section_padding": "both"
+      }
+    },
+    "product-content": {
+      "type": "main-product-content",
+      "blocks": {
+        "fb1f4d16-df0d-45b5-9465-721dc7a91c53": {
+          "type": "product_description",
+          "settings": {
+            "label": "Product details",
+            "block_width": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "fb1f4d16-df0d-45b5-9465-721dc7a91c53"
+      ],
+      "disabled": true,
+      "settings": {
+        "color": "#000000",
+        "background": "#f9f9f9"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "Saattaisit pitää myös näistä",
+        "grid": 4,
+        "limit": 4
+      }
+    },
+    "176237517151ec9312": {
+      "type": "apps",
+      "settings": {
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main",
+    "17623751113d140d8d",
+    "product-content",
+    "product-recommendations",
+    "176237517151ec9312"
+  ]
+}

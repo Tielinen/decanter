@@ -1,0 +1,155 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "dd5461fb-f6e3-4a8c-820c-e5cf98a304c9": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--19761139876189__dd5461fb-f6e3-4a8c-820c-e5cf98a304c9-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "scrolling_text": "<p>Black Wine Week</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "template--19761139876189__dd5461fb-f6e3-4a8c-820c-e5cf98a304c9-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_size": 20,
+        "speed": 15,
+        "icon_height": 20,
+        "padding": 30,
+        "color": "#000000",
+        "background": ""
+      }
+    },
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {}
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "banner_image_type": "banner_image",
+        "image": "shopify://shop_images/riistapadat.png"
+      }
+    },
+    "image_gallery_fDLMLb": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_WhhCr7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/kp-padat.png",
+            "image_width": "33%",
+            "link": "https://decanter.fi/search?q=K%C3%BCchenprofi+pata&options%5Bprefix%5D=last&type=product&form_type=product&utf8=%E2%9C%93&id=39345836523687&product-id=6556898033831&section-id=predictive-search",
+            "heading": "",
+            "subheading": "",
+            "button_text": "Valurautapadat",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "transparent",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hyUWnn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/punaviinilasit_1.png",
+            "image_width": "33%",
+            "link": "https://decanter.fi/collections/punaviinilasit",
+            "heading": "",
+            "subheading": "",
+            "button_text": "Punaviinilasit",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "transparent",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_wVLW8N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pippurit.png",
+            "image_width": "33%",
+            "link": "https://decanter.fi/collections/herkut-ja-mausteet",
+            "heading": "",
+            "subheading": "",
+            "button_text": "Peugeot-pippurit",
+            "caption_position": "middle_center",
+            "hover_caption": false,
+            "caption_background": "transparent",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_WhhCr7",
+        "image_hyUWnn",
+        "image_wVLW8N"
+      ],
+      "settings": {
+        "full_width": false,
+        "image_height": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "swipe": false,
+        "images_touching": false,
+        "heading_size": 22,
+        "subheading_size": 14,
+        "section_padding": "both"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "bef67807-6de8-4afa-b1fe-bc0a46351382": {
+          "type": "side_sortby",
+          "settings": {}
+        },
+        "cea9f996-51a8-4b3a-8837-6975c0590a9c": {
+          "type": "side_filter",
+          "disabled": true,
+          "settings": {
+            "show_color_swatches": true,
+            "show_filter_count": true
+          }
+        }
+      },
+      "block_order": [
+        "bef67807-6de8-4afa-b1fe-bc0a46351382",
+        "cea9f996-51a8-4b3a-8837-6975c0590a9c"
+      ],
+      "settings": {
+        "rows": 4,
+        "grid": 4,
+        "show_image": false,
+        "description_position": "top"
+      }
+    }
+  },
+  "order": [
+    "dd5461fb-f6e3-4a8c-820c-e5cf98a304c9",
+    "breadcrumbs",
+    "banner",
+    "image_gallery_fDLMLb",
+    "main"
+  ]
+}

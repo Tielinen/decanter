@@ -1,0 +1,54 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "banner-image",
+      "settings": {
+        "image": "shopify://shop_images/riedel-karahvi.png"
+      }
+    },
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "show_article_image": false,
+        "article_tags": false,
+        "show_author": false,
+        "show_date": true,
+        "show_icons": true,
+        "sidebar_text_align": "left",
+        "sidebar_block_border": true
+      }
+    },
+    "featured_collection_3tFqeq": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "Karahvit viinin tarjoiluun:",
+        "collection": "karahvit",
+        "carousel": true,
+        "show_view_all": false,
+        "reduce_width": false,
+        "grid": 4,
+        "limit": 15,
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "breadcrumbs",
+    "main",
+    "featured_collection_3tFqeq"
+  ]
+}

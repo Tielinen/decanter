@@ -1,0 +1,182 @@
+{% comment %}
+  Tulosta tuotesaatavuuden elementti.
+  Elementti hakee Decanterin ulkopuolisesta palvelusta AJAXilla saatavuustiedot
+{% endcomment %}
+
+{% assign current_variant = product.selected_or_first_available_variant %}
+
+{% if product.tags contains "tilaustuote" %}
+	<style>
+        #product-stock-availability {
+          display: none;
+        }
+	</style>
+{% endif %}
+
+<style>
+	
+    .warehouse-info {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+    
+    .warehouse-info span.warehouse-name {
+      margin-left: 20px;
+    }
+    
+    #specific-availability {
+      margin-bottom: 20px;
+    }
+    
+    .warehouse-info h3 {
+      margin-bottom: 5px!important;
+    }
+    
+    .warehouse-info:last-child {
+      margin-bottom: 20px;
+    }
+    
+    .shopify-payment-button__more-options {display:none}
+    
+  	.stock-available span.warehouse-name::before {
+        background: #00d86a;
+        display: block;
+        width: 10px;
+        height: 10px;
+        margin-left: -18px;
+        margin-top: 6px;
+        content: "";
+        position: absolute;
+        border-radius: 5px;
+    }
+  
+    .stock-unavailable span.warehouse-name::before {
+        background: #c1c1c1;
+        display: block;
+        width: 10px;
+        height: 10px;
+        margin-left: -18px;
+        margin-top: 6px;
+        content: "";
+        position: absolute;
+        border-radius: 5px;
+    }
+  
+</style>
+
+<div id="product-stock-availability">
+  <label>Myymäläsaatavuudet</label>
+</div>
+
+  <!-- Start Product Availability Script -->
+  <script defer>
+  
+    const currentVariantSKU = '{{ current_variant.sku }}';
+    console.log("Hello, World", currentVariantSKU);
+
+    (function($) {
+      
+
+      $(function() {
+         const tmpSKU = encodeURIComponent(currentVariantSKU);
+        $.get("https://decanter-sapp.viinilehti.fi/fetch_product_stock.php?productSKU="+tmpSKU, function(data){
+
+          console.log('product stock data:',data);
+          
+          if(Array.isArray(data)) {
+			renderProductAvailabilityCard(data);
+          } else {
+			renderProductAvailabilityCard(null);
+          }
+
+        });
+
+
+        function renderProductAvailabilityCard(stockData) {
+
+          //console.log(stockData);
+          
+          if(stockData == null || stockData.length < 1) {
+			$("#product-stock-availability").html("<p>Tuotteen myymäläsaatavuudet eivät ole saatavilla.</p>");
+          } else {
+            
+            let fullAvailabilityHTML = "";
+            
+            let addedLocations = [];
+            let isAvailableInStores = false;
+            
+            for(const stockInfo of stockData) {
+              
+              
+              var stockElementClass = 'stock-available';
+              
+              let stockText = stockInfo.stock + " kpl";
+              if(stockInfo.stock < 1) {
+              	stockText = "Ei saatavilla";
+                stockElementClass = 'stock-unavailable';
+              }
+              
+              var locationName = stockInfo.location.trim();
+              
+              if( locationName == 'Lauttasaari' ) {
+                
+                locationName = 'Verkkokauppa';
+                
+              } else if( stockInfo.stock >= 1 ) {
+                  isAvailableInStores = true;
+              }
+
+              if( stockInfo.stock > 30 ) {
+                  stockText = "Yli 30 kpl"
+              }
+              
+              let normalizedLocationName = locationName.toLowerCase();
+              if( addedLocations.includes( normalizedLocationName ) ) continue;
+              addedLocations.push( normalizedLocationName ); 
+              
+              fullAvailabilityHTML = fullAvailabilityHTML.concat(`
+					
+					<div class='warehouse-info ${stockElementClass}'>
+						<span class='warehouse-name'>${locationName}</span>
+						<span class='warehouse-stock'>${stockText}</span>
+    				</div>
+
+				`);
+            }
+
+            console.log(addedLocations);
+            console.log("Is Available In Any Store:",isAvailableInStores);
+
+            if( isAvailableInStores ) {
+                let addToCardText = $("#addToCart").val();
+                if( addToCardText.toLowerCase().trim() === 'loppuunmyyty' ) {
+                    $("#addToCart").val("Loppu verkosta");
+                }
+            }
+            
+            $("#product-stock-availability").append(`
+				<div id="specific-availability">
+					${fullAvailabilityHTML}
+    			</div>
+			`);
+
+            $.get(`https://decanter-sapp.viinilehti.fi/fetch_product_atts.php?productSKU=${currentVariantSKU}&attributeName=product-only-order`, function(data) {
+                console.log("AttributeData:",data);
+                if( data.value != null ) {
+                  let addToCardText = $("#addToCart").val();
+                  if( addToCardText.toLowerCase().trim() === 'loppuunmyyty' && data.value == "1" ) {
+                      $("#addToCart").val("Tilaustuote");
+                  }
+                }
+            });
+            
+          }
+
+        }
+      });
+
+    })(jQuery);
+
+  </script>
+ <!-- End Product Availability Script -->
