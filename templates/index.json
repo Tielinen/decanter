@@ -12,6 +12,13 @@
     "scrolling_text_VXKjdg": {
       "type": "scrolling-text",
       "blocks": {
+        "text_yP6U7F": {
+          "type": "text",
+          "settings": {
+            "scrolling_text": "<p><strong>Kaikki to 18.12. mennessä tulleet tilaukset ehtivät jouluksi pakettinoutopisteisiin.</strong></p>",
+            "icon": "none"
+          }
+        },
         "text_WfR34R": {
           "type": "text",
           "disabled": true,
@@ -62,6 +69,7 @@
         }
       },
       "block_order": [
+        "text_yP6U7F",
         "text_WfR34R",
         "text_UUKYNE",
         "text_MNDcJ3",
@@ -92,21 +100,21 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "d3250875-f7c1-40bb-aec9-87edb0224b73": {
+        "55f5d69d-13a6-4c69-92e6-73a81e000297": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/6000x2000-bww25.jpg",
+            "image": "shopify://shop_images/6000x2000-joulu-1.jpg",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "caption_position": "middle_left",
-            "mobile_image": "shopify://shop_images/mobiili-bww.jpg",
+            "mobile_image": "shopify://shop_images/mobiili-joulu-1.jpg",
             "hide_caption_background": false,
-            "heading": "BLACK WINE WEEK",
-            "subheading": "<p>Black Wine Week on täällä huipputarjouksineen!<strong> Lähes koko normaalihintainen valikoima -30 %</strong>, lisäksi erikoistarjouksia!</p>",
-            "link": "shopify://collections/black-wine-week",
-            "button_text": "TUTUSTU TARJOUKSIIN",
+            "heading": "Joulun suosikkituotteet",
+            "subheading": "<p>Joulu on avattu! Tutustu tuotteisiin, joilla loihdit kauneimmat ja herkullisimmat kattaukset ja ilahdutat lahjansaajia.</p>",
+            "link": "shopify://collections/joulun-suosikit",
+            "button_text": "JOULUTARJOUKSIIN",
             "second_link": "",
-            "second_button_text": "",
+            "second_button_text": "Button 2 text",
             "text_color": "#000000",
             "button_color": "#ffffff",
             "button_background": "#e21d39",
@@ -115,18 +123,38 @@
         },
         "d2bfec4c-631f-4d71-9800-1cfa69caa9f4": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/6000x2000-pikkujoulut.jpg",
+            "image": "shopify://shop_images/6000x2000-lahjakortti.jpg",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "caption_position": "middle_left",
-            "mobile_image": "shopify://shop_images/mobiili-pikkujoulut.jpg",
+            "mobile_image": "shopify://shop_images/mobiili-lahjakortti_1.jpg",
             "hide_caption_background": false,
-            "heading": "Pikkujoulukauden juomapöytiin",
-            "subheading": "<p>Pikkujoulukausi on käynnissä! Tutustu laseihin ja cocktailtarvikkeisiin ja nauti vuoden tunnelmallisimmista juhlista.</p>",
-            "link": "shopify://collections/pikkujoulujen-juhlakattauksiin",
-            "button_text": "TUTUSTU TARJOUKSIIN",
+            "heading": "Lahjakortti on aina varma lahjaidea",
+            "subheading": "<p>Decanter-lahjakortti ilahduttaa taatusti viinin ja ruoan ystäviä. Lahjakortti lähetetään sähköisesti heti oston jälkeen.</p>",
+            "link": "https://decanter.fi/products/decanter-lahjakortti",
+            "button_text": "OSTA LAHJAKORTTI",
+            "second_link": "",
+            "second_button_text": "",
+            "text_color": "#000000",
+            "button_color": "#ffffff",
+            "button_background": "#e21d39",
+            "caption_background": "#ffffff"
+          }
+        },
+        "d3250875-f7c1-40bb-aec9-87edb0224b73": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6000x2000-hexclad-2.jpg",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "caption_position": "middle_left",
+            "mobile_image": "shopify://shop_images/mobiili-hexclad-2.jpg",
+            "hide_caption_background": false,
+            "heading": "HexClad -hybridipannut",
+            "subheading": "<p>Suomen laajin valikoima patentoituja huippuluokan hybridipannuja.</p>",
+            "link": "shopify://collections/hexclad",
+            "button_text": "TUTUSTU",
             "second_link": "",
             "second_button_text": "",
             "text_color": "#000000",
@@ -148,27 +176,6 @@
             "subheading": "<p>Nauti kuumat juomat kauniista laseista.</p>",
             "link": "shopify://collections/lampimille-juomille",
             "button_text": "TUTUSTU VALIKOIMAAN",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "text_color": "#000000",
-            "button_color": "#ffffff",
-            "button_background": "#e21d39",
-            "caption_background": "#ffffff"
-          }
-        },
-        "55f5d69d-13a6-4c69-92e6-73a81e000297": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/6000x2000-joulu-1.jpg",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "caption_position": "middle_left",
-            "mobile_image": "shopify://shop_images/mobiili-joulu-1.jpg",
-            "hide_caption_background": false,
-            "heading": "Joulun suosikkituotteet",
-            "subheading": "<p>Joulu on avattu! Tutustu tuotteisiin, joilla loihdit kauneimmat ja herkullisimmat kattaukset ja ilahdutat lahjansaajia.</p>",
-            "link": "shopify://collections/joulun-suosikit",
-            "button_text": "JOULUTARJOUKSIIN",
             "second_link": "",
             "second_button_text": "Button 2 text",
             "text_color": "#000000",
@@ -200,10 +207,10 @@
         }
       },
       "block_order": [
-        "d3250875-f7c1-40bb-aec9-87edb0224b73",
-        "d2bfec4c-631f-4d71-9800-1cfa69caa9f4",
-        "83f6e201-410c-4d56-ab49-362873e3e974",
         "55f5d69d-13a6-4c69-92e6-73a81e000297",
+        "d2bfec4c-631f-4d71-9800-1cfa69caa9f4",
+        "d3250875-f7c1-40bb-aec9-87edb0224b73",
+        "83f6e201-410c-4d56-ab49-362873e3e974",
         "7e049825-5757-453b-9999-c7a80833961c"
       ],
       "custom_css": [],
@@ -265,8 +272,8 @@
     "5c91c730-2701-4d6b-a603-7167d55d93eb": {
       "type": "feature-collection-prio1",
       "settings": {
-        "heading": "Black Wine Week -erikoistarjoukset",
-        "collection": "black-wine-week",
+        "heading": "Joulun tuotesuosituksia",
+        "collection": "joulun-suosikit",
         "carousel": true,
         "show_view_all": false,
         "show_sold_outs": false,
@@ -313,6 +320,7 @@
         "countdown_7VHE3D",
         "button_inUDLf"
       ],
+      "disabled": true,
       "name": "Countdown",
       "settings": {
         "full_width": true,

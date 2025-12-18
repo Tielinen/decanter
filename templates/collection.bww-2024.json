@@ -59,7 +59,7 @@
             "button_text": "Riedel-viinilasit -30 %",
             "caption_position": "middle_center",
             "hover_caption": false,
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -76,7 +76,7 @@
             "button_text": "Peugeot-tuotteet -30 %",
             "caption_position": "middle_center",
             "hover_caption": false,
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -93,7 +93,7 @@
             "button_text": "De Buyer -tuotteet -30 %",
             "caption_position": "middle_center",
             "hover_caption": false,
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -144,6 +144,30 @@
         "show_image": false,
         "description_position": "top"
       }
+    },
+    "image_with_text_overlay_6NNkhQ": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "image": "shopify://shop_images/6000x2000-black-wine-week-viinikaapit.jpg",
+        "scale": 2,
+        "page_height": 500,
+        "caption_position": "middle_center",
+        "caption_below": false,
+        "heading": "Black Wine Week -viinikaappitarjoukset",
+        "subheading": "<p>Tutustu IP Parma -viinikaappitarjouksiin!</p>",
+        "button_text": "TUTUSTU",
+        "button_link": "https://decanter.fi/collections/black-wine-week-viinikaappitarjoukset",
+        "heading_font_size": 22,
+        "subheading_font_size": 14,
+        "text_color": "#fff",
+        "button_text_color": "#fff",
+        "button_color": "#000",
+        "background": "transparent",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -151,6 +175,7 @@
     "breadcrumbs",
     "banner",
     "image_gallery_VijDkC",
-    "main"
+    "main",
+    "image_with_text_overlay_6NNkhQ"
   ]
 }

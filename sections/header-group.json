@@ -17,7 +17,7 @@
         "1e59e03d-9427-448e-a770-8b003cab5cc9": {
           "type": "announcement_text",
           "settings": {
-            "announcement_text": "<p>Suomalainen perheyritys jo vuodesta 1987.</p>"
+            "announcement_text": "<p>Kaikki to 18.12. mennessä tulleet tilaukset ehtivät jouluksi pakettinoutopisteisiin.</p>"
           }
         }
       },
@@ -64,21 +64,21 @@
         "text_ttLgcL": {
           "type": "text",
           "settings": {
-            "scrolling_text": "<p><strong>BLACK WINE WEEK</strong></p>",
+            "scrolling_text": "<p><strong>JOULUALE</strong></p>",
             "icon": "none"
           }
         },
         "text_DHPLez": {
           "type": "text",
           "settings": {
-            "scrolling_text": "<p><strong>Lähes koko normaalihintainen valikoima -30 %, lisäksi erikoistarjouksia!</strong></p>",
+            "scrolling_text": "<p><strong>Lähes koko normaalihintainen valikoima -20 %</strong></p>",
             "icon": "none"
           }
         },
         "text_9QReVk": {
           "type": "text",
           "settings": {
-            "scrolling_text": "<p><em>Ei koske valmiiksi alennettuja tuotteita, lahjakortteja, viinikaappeja, Coravin, HexClad, Kasumi eikä Horl -tuotteita, eikä myöskään The Durand -viinipullonavaajaa eikä EATFinland-kirjoja. Tarjous päättyy ma 1.12.</em></p>",
+            "scrolling_text": "<p><em>Ei koske valmiiksi alennettuja tuotteita, lahjakortteja, viinikaappeja, Coravin, HexClad, Kasumi eikä Horl -tuotteita, eikä myöskään The Durand -viinipullonavaajaa eikä EATFinland-kirjoja. Tarjous päättyy ke 17.12.</em></p>",
             "icon": "none"
           }
         }
@@ -88,6 +88,7 @@
         "text_DHPLez",
         "text_9QReVk"
       ],
+      "disabled": true,
       "settings": {
         "text_size": 20,
         "speed": 20,
