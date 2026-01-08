@@ -42,7 +42,7 @@
       "type": "main-collection-banner",
       "settings": {
         "banner_image_type": "banner_image",
-        "image": "shopify://shop_images/samppanjalasit-riedel.png"
+        "image": "shopify://shop_images/6000x2000-uusivuosi.jpg"
       }
     },
     "image_gallery_bXiUPN": {
@@ -51,15 +51,15 @@
         "image_JpqdLV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/samppanjalasit-1000x1000.png",
+            "image": "shopify://shop_images/1000x1000-samppanjalasit.jpg",
             "image_width": "33%",
             "link": "https://decanter.fi/collections/kuohuviinilasit-ja-samppanjalasit",
             "heading": "",
             "subheading": "",
-            "button_text": "Lasit kupliville -30 %",
+            "button_text": "Lasit kupliville -25 %",
             "caption_position": "middle_center",
             "hover_caption": false,
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -68,15 +68,15 @@
         "image_9ayxw7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/coolerit-1000x1000.png",
+            "image": "shopify://shop_images/1000x1000-coolerit.jpg",
             "image_width": "33%",
             "link": "https://decanter.fi/collections/coolerit",
             "heading": "",
             "subheading": "",
-            "button_text": "Coolerit -30 %",
+            "button_text": "Coolerit -25 %",
             "caption_position": "middle_center",
             "hover_caption": false,
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -85,15 +85,15 @@
         "image_V7d3HL": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/samppanjapullonsulkijat-1000x1000.png",
+            "image": "shopify://shop_images/1000x1000-dsg.jpg",
             "image_width": "33%",
-            "link": "https://decanter.fi/collections/pullonavaajat-ja-sulkijat",
+            "link": "https://decanter.fi/search?q=Riedel+DSG&options%5Bprefix%5D=last&type=product&form_type=product&utf8=%E2%9C%93&id=37325524336807&product-id=6040335384743&section-id=predictive-search",
             "heading": "",
             "subheading": "",
-            "button_text": "Samppanjapullonsulkijat -30 %",
+            "button_text": "Riedel DSG -lasit -25 %",
             "caption_position": "middle_center",
             "hover_caption": false,
-            "caption_background": "transparent",
+            "caption_background": "rgba(0,0,0,0)",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -138,7 +138,7 @@
         "cea9f996-51a8-4b3a-8837-6975c0590a9c"
       ],
       "settings": {
-        "rows": 4,
+        "rows": 10,
         "grid": 4,
         "show_image": false,
         "description_position": "top"

@@ -42,79 +42,7 @@
       "type": "main-collection-banner",
       "settings": {
         "banner_image_type": "banner_image",
-        "image": "shopify://shop_images/tammiale-2025.png"
-      }
-    },
-    "image_gallery_TMgYFP": {
-      "type": "image-gallery",
-      "blocks": {
-        "image_crKVr8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/peugeot-tammiale_2.png",
-            "image_width": "33%",
-            "link": "https://decanter.fi/collections/peugeot",
-            "heading": "",
-            "subheading": "",
-            "button_text": "Peugeot-valikoima -25 %",
-            "caption_position": "middle_center",
-            "hover_caption": false,
-            "caption_background": "rgba(0,0,0,0)",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_aPchEf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/arabesque-tammiale.png",
-            "image_width": "33%",
-            "link": "https://decanter.fi/search?q=Spiegelau+Arabesque&options%5Bprefix%5D=last&type=product&form_type=product&utf8=%E2%9C%93&id=43533774586068&product-id=7833926271188&section-id=predictive-search",
-            "heading": "",
-            "subheading": "",
-            "button_text": "Spiegelau Arabesque -50 %",
-            "caption_position": "middle_center",
-            "hover_caption": false,
-            "caption_background": "rgba(0,0,0,0)",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_fLd4zW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/riedel-bonuspakkaukset_1.png",
-            "image_width": "33%",
-            "link": "shopify://collections/value-pack",
-            "heading": "",
-            "subheading": "",
-            "button_text": "Riedel-bonuspakkaukset -20 %",
-            "caption_position": "middle_center",
-            "hover_caption": false,
-            "caption_background": "rgba(0,0,0,0)",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_crKVr8",
-        "image_aPchEf",
-        "image_fLd4zW"
-      ],
-      "settings": {
-        "full_width": false,
-        "image_height": "natural",
-        "desktop_height": 900,
-        "mobile_height": 600,
-        "swipe": false,
-        "images_touching": false,
-        "heading_size": 22,
-        "subheading_size": 14,
-        "section_padding": "both"
+        "image": "shopify://shop_images/6000x2000-tammiale.jpg"
       }
     },
     "main": {
@@ -138,7 +66,7 @@
         "cea9f996-51a8-4b3a-8837-6975c0590a9c"
       ],
       "settings": {
-        "rows": 4,
+        "rows": 10,
         "grid": 4,
         "show_image": false,
         "description_position": "top"
@@ -149,7 +77,6 @@
     "dd5461fb-f6e3-4a8c-820c-e5cf98a304c9",
     "breadcrumbs",
     "banner",
-    "image_gallery_TMgYFP",
     "main"
   ]
 }
